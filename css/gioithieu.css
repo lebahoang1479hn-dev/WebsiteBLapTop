@@ -1,0 +1,26 @@
+.thanhvien {
+    
+    width: 100%;
+     min-height: 250px;
+    
+    
+ }
+ .content-tv{
+     display: inline-flex; 
+     padding: 25px;
+ }
+ .thanhvien1 {
+    
+     display: inline-flex;
+     text-align: center;
+ }
+ .card{
+    float: left;
+    text-align: center;
+    margin-left: 130px;
+    
+}
+.row2{
+    margin-left: 50%;
+}
+

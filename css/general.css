@@ -1,0 +1,18 @@
+:root{
+    --brand-color: #39d2f7;
+    --main-color: #0dcaf0;
+    --border-color: #dfdfdf;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #333;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/sanpham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="header">
+            <header>
+                <div class="top__header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="top__header-list">
+                                    <li class="top__header-item--left">
+                                        <h3>12 Nguyễn Văn Bảo,P.4, Gò Vấp, TP.Hồ Chí Minh</h3>
+                                    </li>
+                                    <li class="top__header-item--right">
+                                        <a href="" class="top__header-link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end top header -->
+
+                <div class="mid__header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="mid__header-heading">
+                                    <h3>ElectroShop</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mid__header-form">
+                                    <form action="">
+                                        <input type="text" placeholder="Nhập tên sản phẩm cần tìm">
+
+                                        <button>
+                                            <a href="">
+                                                Tìm
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </a>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="mid__header-login">
+                                    <div class="sign_up_in">
+                                        <a class="dk" href="../html/dangky.html">Đăng ký</a>
+                                        <a class="dn" href="../html/dangnhap.html">Đăng nhập</a>
+                                    </div>
+                                    <div class="cart">
+                                        <a class="cart-link" href="">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </a>
+                                        <div class="cart-quantity">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end mid header -->
+
+                <div class="bottom__header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="bottom__header-list">
+                                    <li>
+                                        <a href="./index.html">Trang chủ</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="">Laptop</a>
+                                    </li>
+                                    <li>
+                                        <a href="./sanphamPhuKien.html">Phụ kiện</a>
+                                    </li>
+                                    <li>
+                                        <a href="./lienhe.html">Liên hệ</a>
+                                    </li>
+                                    <li>
+                                        <a href="./gioithieu.html">Giới thiệu</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end bottom header -->
+
+            </header>
+        </div>
+        <!-- end id header -->
+
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="product__category">
+                            <div class="product__category--heading">
+                                <h3>Danh mục sản phẩm</h3>
+                            </div>
+
+                            <div class="product__category--menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="" class="menu__item--link">
+                                            Macbook
+                                        </a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="" class="menu__item--link">
+                                            Asus
+                                        </a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="" class="menu__item--link">
+                                            Dell
+                                        </a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="" class="menu__item--link">
+                                            HP
+                                        </a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="" class="menu__item--link">
+                                            Lenovo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end product menu -->
+
+                            <div class="product__category--filter-product">
+                                <h4>Lọc sản phẩm</h4>
+                                <div class="filter-product__select">
+                                    <div class="filter-product__select--item">
+                                        <h5>Mức giá</h5>
+                                        <select name="" id="price">
+                                            <option value="">Tất cả</option>
+                                            <option value="">Trên 1 triệu</option>
+                                            <option value="">Dưới 1 triệu</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-product__select--item">
+                                        <h5>Loại sản phẩm</h5>
+                                        <select name="" id="price">
+                                            <option value="">Tất cả</option>
+                                            <option value="">Trên 1 triệu</option>
+                                            <option value="">Dưới 1 triệu</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-product__select--item">
+                                        <h5>Năm sản xuất</h5>
+                                        <select name="" id="price">
+                                            <option value="">Tất cả</option>
+                                            <option value="">Trên 1 triệu</option>
+                                            <option value="">Dưới 1 triệu</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end filter product -->
+                        </div>
+                        <!-- end product category -->
+                    </div>
+                    <!-- end col 3 -->
+
+                    <div class="col-md-9">
+                        <div class="render__product">
+                            <div class="render__product-sort">
+                                <select name="" id="render__product-sort--select">
+                                    <option value="">Sắp xếp</option>
+                                    <option value="">Thấp đến cao</option>
+                                    <option value="">Cao đến thấp</option>
+                                </select>
+                            </div>
+
+                            <div class="render__product-list">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="render__product-item">
+                                            <div class="render__product-item--img">
+                                                <img class="img-js" src="../assets/img/laptop1.jpg" alt="">
+                                            </div>
+
+                                            <div class="render__product-item--name">
+                                                <a href="#">MacBook Pro M2 2022 SSD 256 GB</a>
+                                            </div>
+
+                                            <div class="render__product-item--price">
+                                                <h4>33,690,000đ</h4>
+                                            </div>
+
+                                            <div class="render__product-item--addtocart">
+                                                <button class="addtocart__button">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </div>
+
+                                            <div class="render__product-item--detail">
+                                                <button class="detail__button">
+                                                    Xem chi tiết
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="render__product-item">
+                                            <div class="render__product-item--img">
+                                                <img class="img-js" src="../assets/img/laptop2.jpg" alt="">
+                                            </div>
+
+                                            <div class="render__product-item--name">
+                                                <a href="#">MSI Gaming Pulse GL66 11UDK i7</a>
+                                            </div>
+
+                                            <div class="render__product-item--price">
+                                                <h4>28,190,000đ</h4>
+                                            </div>
+
+                                            <div class="render__product-item--addtocart">
+                                                <button class="addtocart__button">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </div>
+
+                                            <div class="render__product-item--detail">
+                                                <button class="detail__button">
+                                                    Xem chi tiết
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="render__product-item">
+                                            <div class="render__product-item--img">
+                                                <img class="img-js" src="../assets/img/laptop3.jpg" alt="">
+                                            </div>
+
+                                            <div class="render__product-item--name">
+                                                <a href="#">Asus VivoBook 15X OLED A1503ZA i5</a>
+                                            </div>
+
+                                            <div class="render__product-item--price">
+                                                <h4>19,390,000đ</h4>
+                                            </div>
+
+                                            <div class="render__product-item--addtocart">
+                                                <button class="addtocart__button">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </div>
+
+                                            <div class="render__product-item--detail">
+                                                <button class="detail__button">
+                                                    Xem chi tiết
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="render__product-item">
+                                            <div class="render__product-item--img">
+                                                <img class="img-js" src="../assets/img/laptop4.jpg" alt="">
+                                            </div>
+
+                                            <div class="render__product-item--name">
+                                                <a href="#">Lenovo IdeaPad 3 15IML05 i3</a>
+                                            </div>
+
+                                            <div class="render__product-item--price">
+                                                <h4>8,190,000đ</h4>
+                                            </div>
+
+                                            <div class="render__product-item--addtocart">
+                                                <button class="addtocart__button">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </div>
+
+                                            <div class="render__product-item--detail">
+                                                <button class="detail__button">
+                                                    Xem chi tiết
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="render__product-item">
+                                            <div class="render__product-item--img">
+                                                <img class="img-js" src="../assets/img/laptop5.jpg" alt="">
+                                            </div>
+
+                                            <div class="render__product-item--name">
+                                                <a href="#">Dell Gaming G15 5511 i5</a>
+                                            </div>
+
+                                            <div class="render__product-item--price">
+                                                <h4>25,890,000đ</h4>
+                                            </div>
+
+                                            <div class="render__product-item--addtocart">
+                                                <button class="addtocart__button">
+                                                    Thêm vào giỏ
+                                                </button>
+                                            </div>
+
+                                            <div class="render__product-item--detail">
+                                                <button class="detail__button">
+                                                    Xem chi tiết
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end render product -->
+                    </div>
+                    <!-- end col 9 -->
+                </div>
+            </div>
+        </div>
+        <!-- end content -->
+
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer__brand">
+                            <h3>ElectroShop</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer__info-contact">
+                            <h4 class="info-contact--heading">
+                                Thông tin liên hệ
+                            </h4>
+                            <a href="#" class="info-contact--link">
+                                <i class="fa-solid fa-user"></i>
+                                <p>12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, TP HCM</p>
+                            </a>
+                            <a href="#" class="info-contact--link">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>0988820943</p>
+                            </a>
+                            <a href="#" class="info-contact--link">
+                                <i class="fa-solid fa-message"></i>
+                                <p>ElectroShop@gmail.com</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="footer__link">
+                            <h4>
+                                Liên kết
+                            </h4>
+                            <a href="../html/sanphamLaptop.html">Laptop</a>
+
+                            <div class="footer__link-group">
+                                <a href="../html/sanphamPhuKien.html">
+                                    Phụ kiện
+                                </a> 
+                                <a href="#">
+                                    Liên hệ
+                                </a> 
+                                <a href="#">
+                                    Giới thiệu
+                                </a> 
+                            </div>
+                            <!-- <a href="#">Phụ kiện</a>
+                            <a href="#">Liên hệ</a>
+                            <a href="#">Giới thiệu</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="footer__support">
+                            <h4>
+                                Hỗ trợ
+                            </h4>
+                            <a href="#">Hướng dẫn mua hàng</a>
+                            <a href="#">Hướng dẫn thanh toán</a>
+                            <a href="#">Chính sách bảo hành</a>
+                            <a href="#">Tư vấn khách hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+    <!-- end main -->
+
+    <div id="myModal" class="mymodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Giỏ Hàng</h5>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                    <span class="cart-price cart-header cart-column">Giá</span>
+                    <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="../assets/img/asus.jpg" width="100" height="100">
+                            <span class="cart-item-title">Laptop Asus VivoBook X515EA-BR1409T</span>
+                        </div>
+                        <span class="cart-price cart-column">17599000đ</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" value="1">
+                            <button class="btn btn-danger" type="button">Xóa</button>
+                        </div>
+                    </div>
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="../assets/img/HP.jpg" width="100" height="100">
+                            <span class="cart-item-title">
+                                Laptop HP 245 G8 R5 5500U
+                            </span>
+                        </div>
+                        <span class="cart-price cart-column">16999000đ</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" value="1">
+                            <button class="btn btn-danger" type="button">Xóa</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Tổng Cộng:</strong>
+                    <span class="cart-total-price">0VNĐ</span>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                <button type="button" class="btn btn-primary order">Thanh Toán</button>
+            </div>
+        </div>
+    </div>
+    <!-- end Modal -->
+
+    <script src="../js/handle/giohang.js"></script>
+</body>
+
+</html>
